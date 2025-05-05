@@ -13,7 +13,7 @@ jobs:
     - name: FTPデプロイ
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: users140.lolipop.jp
+        server: ftp.lolipop.jp
         username: lolipop.jp-dp59258021
         password: ${{ secrets.FTP_PASSWORD }}  # GitHubのシークレットに保存したパスワード
         local-dir: ./  # アップロードするフォルダ
