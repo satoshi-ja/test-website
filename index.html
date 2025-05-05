@@ -7,6 +7,7 @@
     <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
     <title>シンプルなウェブページ</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="slider.js"></script>
 </head>
 <body>
     <header>
@@ -14,12 +15,30 @@
     </header>
     <main>
         <section>
-            <h2>シンプルなウェブページ Devinからのプッシュ > Cursorで修正</h2>
+            <h2>シンプルなウェブページ Devinからのプッシュ &gt; Cursorで修正</h2>
             <p>これは基本的なウェブページの例です。日本語のテキストです。</p>
+            
+            <h3>キャラクタースライダー</h3>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="images/slider/character1.png" alt="キャラクター1" class="slider-image">
+                    <img src="images/slider/character2.png" alt="キャラクター2" class="slider-image">
+                    <img src="images/slider/character3.png" alt="キャラクター3" class="slider-image">
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-button">&#10094;</button>
+                    <div class="slider-dots">
+                        <span class="slider-dot"></span>
+                        <span class="slider-dot"></span>
+                        <span class="slider-dot"></span>
+                    </div>
+                    <button class="next-button">&#10095;</button>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 シンプルなウェブページ</p>
     </footer>
 </body>
-</html>
+</html>   
