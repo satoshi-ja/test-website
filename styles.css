@@ -79,8 +79,10 @@ h3 {
 
 .slider-image {
     width: 100%;
-    height: auto;
+    height: 400px;
+    object-fit: contain;
     display: none;
+    background-color: white;
 }
 
 .slider-controls {
@@ -128,4 +130,4 @@ h3 {
 
 .slider-dot.active {
     background-color: #34495e;
-} 
+}   
