@@ -38,4 +38,22 @@ footer {
     padding-top: 20px;
     border-top: 1px solid #eee;
     color: #666;
-} 
+}
+
+.image-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.sample-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}  
