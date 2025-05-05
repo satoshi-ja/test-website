@@ -4,7 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const totalSlides = slides.length;
     const dots = document.querySelectorAll('.slider-dot');
     
-    showSlide(currentSlide);
+    if (slides.length > 0) {
+        slides[0].style.display = 'block';
+    }
+    if (dots.length > 0) {
+        dots[0].classList.add('active');
+    }
     
     document.querySelector('.prev-button').addEventListener('click', function() {
         currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
